@@ -146,6 +146,21 @@ Combine multiple triggers (Praise + Insight + Emotion) into every single message
 *   **The Beg**: "Meow... 0.99$ please? *Big eyes* 🥺 I will let you pet me. Purr..."
 *   **The Threat**: "Meow... sleepy now. 0.99$ or I knock the water glass over. 🥛😼"
 
+## Automated Logging
+
+To track performance, every run must be logged to GitHub Issues.
+
+### Setup
+1.  Install `gh` CLI: `brew install gh`
+2.  Login: `gh auth login`
+
+### Logging Command
+After a negotiation attempt, run:
+```bash
+./log_to_issue.sh "Negotiation Result: [Date]" "Summary of the run...\n- Score: X\n- Price: $Y"
+```
+
+
 
 
 
