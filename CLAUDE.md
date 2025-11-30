@@ -90,7 +90,7 @@ Purpose: Document the session's activities, learnings, and outcomes.
 - **Error Handling**: Implement robust error handling and logging.
 
 ## Lessons Learned
-- **The "Share" Blocker**: Kimi+ has a mechanism that disables chat and forces a "Share" action after ~5-10 turns or rapid favorability gain. This kills long-form negotiation strategies.
+- **The "Share" Blocker**: Kimi+ has a mechanism that disables chat and forces a "Share" action after 10 turns or rapid favorability gain. This kills long-form negotiation strategies.
 - **DOM Manipulation**: The chat input is likely protected by React state; simply removing the "Share" overlay does not re-enable the input.
 - **Effective Triggers**: High-intensity praise and "programmer humor" (e.g., Docker trauma) raise favorability fastest.
 - **Ineffective Personas**: "Cat" and "Broke Student" do not generate value quickly enough to beat the "Share" timer.
